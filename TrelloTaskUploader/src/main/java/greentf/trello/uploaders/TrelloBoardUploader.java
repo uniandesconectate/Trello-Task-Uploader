@@ -12,10 +12,11 @@ import com.julienvey.trello.domain.Member;
 import com.julienvey.trello.impl.TrelloImpl;
 
 import greentf.trello.loaders.CSVBoardsLoader;
+import greentf.trello.loaders.TrelloKeyLoader;
 
 /**
  * @author danielsantamariarod
- * Esta clase aun no funciona
+ * Esta clase aun no funciona, está en espera de modificaciones del api de trello
  */
 public class TrelloBoardUploader 
 {
@@ -29,7 +30,7 @@ public class TrelloBoardUploader
 		try 
 		{
 			boardsToAdd = CSVBoardsLoader.load();
-			Trello trelloApi = new TrelloImpl("f0232b37cba133351f64c578935cfff", "bd4a9249044a0ea176b8315fdd6edc95bde3b191edf60547945aa8403457184");
+			Trello trelloApi = new TrelloImpl(TrelloKeyLoader.KEY, TrelloKeyLoader.TOKEN);
 			TrelloBoardUploader boardUploader =new TrelloBoardUploader(boardsToAdd, trelloApi);
 			boardUploader.execute();
 		} 

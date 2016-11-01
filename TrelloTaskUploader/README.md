@@ -3,9 +3,10 @@ Este proyecto está basado en el Java Wrapper for Trello API
 ##Instrucciones:
 
 
-1. Abrir la clase TrelloTaskUploader y reemplazar los valores de la linea por el appkey y el token de trello
+1. Abrir la clase TrelloKeyLoader y reemplazar los valores del appkey y el token de trello
 
-Trello trelloApi = new TrelloImpl("f0232b37cba133351f64c578935cfff", "bd4a9249044a0ea176b8315fdd6edc95bde3b191edf60547945aa8403457184");
+	public static String KEY= "f0232b37cba133351f64c578935cfff";
+	public static String TOKEN="bd4a9249044a0ea176b8315fdd6edc95bde3b191edf60547945aa8403457184";
 
 2. poblar el archivo tarjetas.csv de la siguiente manera. Nótese que el campo comment es un texto separado por _ que permite poner varios comentarios. Esto se utiliza para hacer varias entradas de plus for trello para diferentes usuarios en una misma tarjeta.
 TEAM,BOARD,CARD,COMMENT,LIST
