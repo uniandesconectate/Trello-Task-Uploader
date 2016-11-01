@@ -1,24 +1,2 @@
 TEAM,BOARD,CARD,COMMENT,LIST
-IP16SGTE,IP16SGTE-201620M2,IP16SGTE-01:Reuniones con profesores,plus! @danielsantamaria6 0/4_--_--_--_--,Por hacer
-IP16SGTE,IP16SGTE-201620M2,IP16SGTE-17:Diseño de intervención sobre la herramienta,plus! @danielsantamaria6 0/4_--_--_--_--,Por hacer
-IP16SGTE,IP16SGTE-201620M2,IP16SGTE-05:Revisión de instrumentos de recolección de datos de trabajo en equipo,plus! @danielsantamaria6 0/4_--_--_--_--,Por hacer
-IP16SGTE,IP16SGTE-201620M2,IP16SGTE-01:Convenio con otros proyectos,plus! @danielsantamaria6 0/3_--_--_--_--,Por hacer
-IP16BAD,IP16BAD-201620M2,IP16BAD-01:Reuniones con profesores,plus! @danielsantamaria6 0/4_plus! @silviagomez15 0/4_--_--_--,Por hacer
-IP16BAD,IP16BAD-201620M2,IP16BAD-03:Elaborar documento,--_plus! @silviagomez15 0/0.5_--_--_--,Por hacer
-IP16BAD,IP16BAD-201620M2,IP16BAD-05:Revisión de documentación ,plus! @danielsantamaria6 0/4_plus! @silviagomez15 0/4_--_--_--,Por hacer
-IP16BAD,IP16BAD-201620M2,IP16BAD-05:Revisión de los otros escenarios de aplicación,plus! @danielsantamaria6 0/4_plus! @silviagomez15 0/4_--_--_--,Por hacer
-IP16BAD,IP16BAD-201620M2,IP16BAD-01:Trámites de desarrollo,plus! @danielsantamaria6 0/3_--_--_--_--,Por hacer
-IP15CON,IP15CON-201620M2,IP15CON-01:Reuniones con profesores,plus! @danielsantamaria6 0/4_plus! @silviagomez15 0/4_--_--_--,Por hacer
-IP15CON,IP15CON-201620M2,IP15CON-10:Reunión pedagógica y asistencia a comités,--_plus! @silviagomez15 0/4_--_--_--,Por hacer
-IP15CON,IP15CON-201620M2,IP15CON-05:Soporte a montaje,plus! @danielsantamaria6 0/2_--_plus! @francymoreno 0/4_--_--,Por hacer
-IP15CON,IP15CON-201620M2,IP15CON-07:Grabación de tutoriales,plus! @danielsantamaria6 0/8_--_plus! @francymoreno 0/4_--_--,Por hacer
-IP15CON,IP15CON-201620M2,IP15CON-07:Coordinación de postproducción,plus! @danielsantamaria6 0/4_--_--_--_--,Por hacer
-IP15FAR,IP15FAR-201620M2,IP15FAR-01:Reuniones con profesores,plus! @danielsantamaria6 0/4_plus! @silviagomez15 0/4_plus! @francymoreno 0/2_--_--,Por hacer
-IP15FAR,IP15FAR-201620M2,IP15FAR-07:Montaje de módulos neuro-farmacología,plus! @danielsantamaria6 0/2_--_plus! @francymoreno 0/6_--_--,Por hacer
-IP15FAR,IP15FAR-201620M2,IP15FAR-07:Montaje de módulos de cardiovascular,plus! @danielsantamaria6 0/1.5_--_plus! @francymoreno 0/3_--_--,Por hacer
-IP15FAR,IP15FAR-201620M2,IP15FAR-03:Diseño de taller con monitores,--_plus! @silviagomez15 0/3_--_--_--,Por hacer
-IP15ORI,IP15ORI-201620M2,IP15ORI-01:Reuniones con profesores,plus! @danielsantamaria6 0/8_plus! @silviagomez15 0/8_plus! @francymoreno 0/4_--_--,Por hacer
-IP15ORI,IP15ORI-201620M2,IP15ORI-09:Montaje módulo matemáticas,plus! @danielsantamaria6 0/1_--_plus! @francymoreno 0/2_--_--,Por hacer
-IP15ORI,IP15ORI-201620M2,IP15ORI-09:Montaje módulo orientación vocacional,plus! @danielsantamaria6 0/1_--_plus! @francymoreno 0/2_--_--,Por hacer
-IP15ORI,IP15ORI-201620M2,IP15ORI-09:Montaje módulopreparación de exámenes,plus! @danielsantamaria6 0/1_--_plus! @francymoreno 0/2_--_--,Por hacer
-IP15ORI,IP15ORI-201620M2,IP15ORI-04:Producción de infografías,--_plus! @silviagomez15 0/5_--_--_--,Por hacer
+Test,TestBoard,IP16SGTE-01:Reuniones con profesores,plus! @danielsantamaria6 0/4_--_--_--_--,Por hacer
