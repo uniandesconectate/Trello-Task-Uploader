@@ -26,20 +26,6 @@ public class TrelloBoardUploader
 	
 	public static void main(String[] args) 
 	{
-		LinkedList<HashMap<String, String>> boardsToAdd;
-		try 
-		{
-			boardsToAdd = CSVBoardsLoader.load();
-			Trello trelloApi = new TrelloImpl(TrelloKeyLoader.KEY, TrelloKeyLoader.TOKEN);
-			TrelloBoardUploader boardUploader =new TrelloBoardUploader(boardsToAdd, trelloApi);
-			boardUploader.execute();
-		} 
-		catch (Exception e) 
-		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
 		
 	}
 	public TrelloBoardUploader(LinkedList<HashMap<String, String>> boards, Trello t)
@@ -48,7 +34,7 @@ public class TrelloBoardUploader
 		this.trello=t;
 		this.loadTeams();
 	}
-	private void execute()
+	public void execute()
 	{
 		for (HashMap<String, String> board : newBoards) 
 		{

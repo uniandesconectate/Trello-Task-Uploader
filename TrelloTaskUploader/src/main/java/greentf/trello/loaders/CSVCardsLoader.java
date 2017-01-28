@@ -12,9 +12,10 @@ import au.com.bytecode.opencsv.CSVReader;
 public class CSVCardsLoader 
 {
 	public static LinkedList<HashMap<String, String>> elements = new LinkedList<HashMap<String, String>>();
-	public static LinkedList<HashMap<String, String>> load() throws Exception
+	public static LinkedList<HashMap<String, String>> load(String path) throws Exception
 	{
-		CSVReader reader = new CSVReader(new FileReader("./input/tarjetas.csv"), ',' , '"' , 1);
+		CSVReader reader = new CSVReader(new FileReader(path), ',' , '"' , 1);
+		elements = new LinkedList<HashMap<String, String>>();
 		//Read CSV line by line and use the string array as you want
 	      String[] nextLine;
 	      while ((nextLine = reader.readNext()) != null) 
@@ -36,7 +37,7 @@ public class CSVCardsLoader
 	}
 	public static void main(String[] args) {
 		try {
-			CSVCardsLoader.load();
+			CSVCardsLoader.load("./input/tarjetas.csv");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

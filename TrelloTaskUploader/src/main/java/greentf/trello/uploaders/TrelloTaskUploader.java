@@ -22,32 +22,14 @@ public class TrelloTaskUploader
 	private Trello trello;
 	private HashMap<String, Board> boards= new HashMap<String, Board>();
 	
-	public static void main(String[] args) 
-	{
-		LinkedList<HashMap<String, String>> cardsToAdd;
-		try 
-		{
-			cardsToAdd = CSVCardsLoader.load();
-			Trello trelloApi = new TrelloImpl(TrelloKeyLoader.KEY, TrelloKeyLoader.TOKEN);
-			TrelloTaskUploader taskUploader =new TrelloTaskUploader(cardsToAdd, trelloApi);
-			taskUploader.execute();
-			System.out.println("Finished");
-		} 
-		catch (Exception e) 
-		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-	}
+	
 	public TrelloTaskUploader(LinkedList<HashMap<String, String>> cards, Trello t)
 	{
 		this.newCards=cards;
 		this.trello=t;
 		this.loadBoards();
 	}
-	private void execute()
+	public void execute()
 	{
 		for (HashMap<String, String> card : newCards) 
 		{
