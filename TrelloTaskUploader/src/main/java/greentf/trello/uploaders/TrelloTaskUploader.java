@@ -14,6 +14,7 @@ import com.julienvey.trello.domain.TList;
 import com.julienvey.trello.impl.TrelloImpl;
 
 import greentf.trello.loaders.CSVCardsLoader;
+import greentf.trello.loaders.TrelloKeyLoader;
 
 public class TrelloTaskUploader 
 {
@@ -27,7 +28,7 @@ public class TrelloTaskUploader
 		try 
 		{
 			cardsToAdd = CSVCardsLoader.load();
-			Trello trelloApi = new TrelloImpl("f0232b37cba133351f64c578935cfff", "bd4a9249044a0ea176b8315fdd6edc95bde3b191edf60547945aa8403457184");
+			Trello trelloApi = new TrelloImpl(TrelloKeyLoader.KEY, TrelloKeyLoader.TOKEN);
 			TrelloTaskUploader taskUploader =new TrelloTaskUploader(cardsToAdd, trelloApi);
 			taskUploader.execute();
 			System.out.println("Finished");
