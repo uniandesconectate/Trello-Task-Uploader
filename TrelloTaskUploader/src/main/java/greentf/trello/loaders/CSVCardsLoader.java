@@ -20,7 +20,7 @@ public class CSVCardsLoader
 	      String[] nextLine;
 	      while ((nextLine = reader.readNext()) != null) 
 	      {
-	         if (nextLine != null) 
+	         if (nextLine != null && !nextLine.equals("")) 
 	         {
 	            HashMap<String, String> card = new HashMap<String, String>();
 	            card.put("team", nextLine[0]);
